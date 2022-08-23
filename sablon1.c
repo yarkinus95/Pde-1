@@ -1,4 +1,4 @@
-
+// Program to create a simple calculator
 #include <stdio.h>
 void sorular(){
     const int sz = 255;
@@ -18,6 +18,62 @@ void sorular(){
     fclose(fp);
 }
 
+
+void toplamlari(){
+
+int sonuc;
+for(int i=0;i<101;i++){
+
+
+    sonuc=sonuc+i;
+
+
+}
+    printf("Number = %d\n",sonuc);
+
+
+
+}
+
+void ucaksorusu(){
+
+int zaman,islem;
+
+printf("Zaman giriniz (0 ile 50 araliginda) : ");
+    scanf("%d", &zaman);
+
+    if(zaman>=0 && zaman <=15){
+
+        islem=480/zaman;
+
+        printf("Ucagin hizi= %d\n",islem);
+        }
+    else if(zaman>=16 &&zaman <=35){
+
+        printf("ucagin hizi sabit 480 km/h dir \n");
+        }
+
+    else if(zaman>=35 && zaman<=50){
+
+        islem=480+(480/15)*(zaman-35);
+        printf("Ucagin hizi= %d\n",islem);
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 void program1(){
 int testInteger,sonuc;
     printf("Enter an integer: ");
@@ -34,7 +90,7 @@ int main() {
     char operation;
 
 
-    printf("Enter number:\n ");
+    printf("Soru no giriniz(cikis icin 5 basin) :\n ");
     label1 :
     scanf("%c", &operation);
 
@@ -42,7 +98,8 @@ int main() {
     switch(operation)
     {
         case '1':
-            printf("deneme1\n");
+            toplamlari();
+            printf("deneme1 tamamlandi\n");
 
             break;
 
@@ -60,6 +117,10 @@ int main() {
             break;
         case '5':
             return 0;
+        case '7':
+            ucaksorusu();
+            printf("soru7 tamamlandi\n");
+            break;
 
 
 
