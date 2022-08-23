@@ -1,4 +1,4 @@
-// Program to create a simple calculator
+
 #include <stdio.h>
 void sorular(){
     const int sz = 255;
