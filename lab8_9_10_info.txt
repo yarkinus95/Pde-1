@@ -1,0 +1,20 @@
+QUESTIONS
+1)Write C code to add two numbers entered by user.
+2)Calculate the area of a circlewith given radius.
+3)Determine and Output Whether Number N is Even or Odd.
+4)Determine Whether a Temperature is Below or Above the Freezing Point.
+5)Convert Temperature from Fahrenheit (°F) to Celsius (°C).
+6)Write C codeto convert the length in feet to centimeter.
+7)Write C codeto print the square of all numbers from 1 to10.
+8)Write C codeto find the largest of three numbers A, B, and C.
+9)Write  a  C  program  to  find  the  largest  of  three  numbers  A,  B,  and  C  given from keyboard. 
+10)Write a C program for computing factorial N (N!).
+11)Write a C program which generates even numbers between 1000 and 2000 and then prints them.
+12)Write  a  C  program  to  check  whether  a  given  number  from  keyboard  is Palindrome number or not.
+13)Write a C program to display the sum of the series [ 1+x+x^2/2!+x^3/3!+....].
+14)Enter a value from the keyboard to the 8-element float array.
+Calculate the average of the entered values and print it on the screen.
+15)Write a program that transfers the numbers givenuntil -1 is entered from the keyboard,
+ and then prints the square of each element to the screen. (The number of array elements will be maximum 10.)
+16)Write a program that assigns the digits of the maximum 5-digit number to an array and prints it to the screen.
+17)Write a program that takes a 10-element array from the keyboard and writes it in reverse to the screen. (1.5,2,4,5,6,78,12,1.3 => 3.1,12,78,6,5,4,2,5,1)
