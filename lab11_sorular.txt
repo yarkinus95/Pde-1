@@ -1,0 +1,10 @@
+1)Pentagon numbers are produced according to the formula 
+Pn=n(3n−1)/2. Print pentagon numbers less than 100 to the screen.
+
+2)C code that adds two matrices with the same number of rows and columns.
+Matrix values will be entered from the keyboard.
+
+3)C program that transfers the height and weight values of
+ 10 students in a class to a two-dimensional array by reading 
+them from the keyboard and calculates the average height and 
+weight values and prints them on the screen.
